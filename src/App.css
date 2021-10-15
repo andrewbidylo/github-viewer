@@ -23,7 +23,6 @@ h1 {
   justify-content: center;
   color: white;
   margin: 0;
-  padding: 5pt;
 }
 h2 {
   justify-content: center;
@@ -31,7 +30,6 @@ h2 {
 }
 ul {
   padding: 0;
-  border: red solid 3px;
 }
 img {
   width: 400px;
@@ -41,28 +39,24 @@ img {
   margin: auto;
   padding-top: 40px;
   width: 900px;
-  justify-content:flex-start;
-  border: red solid 3px;
+  justify-content: flex-start;
 }
 .left-side {
   width: 27.3%;
   margin-left: 110px;
   padding-right: 0px;
-  background-color: khaki;
 }
 .detales {
   width: 50%;
   margin: 0 auto;
-  border: red solid 3px;
 }
 .bio {
   width: 400px;
-  border: red solid 3px;
 }
 .search-box {
- display: flex;
+  display: flex;
 }
 .user-detales {
   margin-left: 30px;
-  border: red solid 3px;
+  padding: 0;
 }
