@@ -7,8 +7,6 @@ import UserDetails from './Components/UserDetails'
 import {InitialSearchTerm} from './Components/Search'
 import {searchUserType} from './Components/UserList'
 
-
-
 const App = () => {
   const [selectedUser, setSelectedUser] = useState<searchUserType | null>(null)
   const [searchTerm, setSearchTerm] = useState(InitialSearchTerm)
@@ -28,7 +26,6 @@ const App = () => {
         <div className='right-side'>
           <UserDetails user={selectedUser} />
         </div>
-
       </div>
     </div>
   );
