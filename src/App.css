@@ -4,6 +4,17 @@
 header {
   background-color: cadetblue;
 }
+footer {
+  background-color: cadetblue;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  margin-top: 15px;
+  color: white;
+}
 .selected {
   background-color: cadetblue;
   width: 180px;
@@ -44,7 +55,7 @@ img {
 .left-side {
   width: 27.3%;
   margin-left: 110px;
-  padding-right: 0px;
+  padding-bottom: 63px;
 }
 .detales {
   width: 50%;

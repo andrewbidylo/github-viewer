@@ -1,6 +1,5 @@
-
-import {useState } from 'react';
-import './App.css';
+import {useState } from 'react'
+import './App.css'
 import Search from './Components/Search'
 import UsersList from './Components/UserList'
 import UserDetails from './Components/UserDetails'
@@ -15,7 +14,7 @@ const App = () => {
     <div>
       <header>
         <h1>
-          Github Viewer
+          GitHub Viewer
         </h1>
       </header>
       <div className='container'>
@@ -26,8 +25,13 @@ const App = () => {
         <div className='right-side'>
           <UserDetails user={selectedUser} />
         </div>
+ 
       </div>
+      <footer>
+       @ Created by Andrew Bidylo
+     </footer>
     </div>
+    
   );
 }
 

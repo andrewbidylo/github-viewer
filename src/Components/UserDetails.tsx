@@ -11,6 +11,7 @@ type userType = {
     followers: number
     bio: string
     public_repos: number
+    name:string
   }
 
 type UserDetailsPropsType = {
@@ -44,6 +45,9 @@ type UserDetailsPropsType = {
           <h2>{userDetails?.login}</h2>
           <Timer seconds={seconds} onChange={setSeconds} timerKey={userDetails.id.toString()} />
           <img alt='avatar' src={userDetails?.avatar_url} />
+          <div>
+          <p> <strong>Name: </strong>{userDetails?.name}</p>
+          </div>
           <div>
             <p className="bio"> <strong>Biography:</strong> {userDetails?.bio} </p>
           </div>

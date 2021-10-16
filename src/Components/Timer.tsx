@@ -27,7 +27,7 @@ type TimerPropsType = {
   
     return (
       <div>
-        {seconds}
+        Timer: {seconds}
       </div>
     )
   }
