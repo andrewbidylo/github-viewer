@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react';
-import axios from 'axios';
+import { useEffect, useState } from 'react'
+import axios from 'axios'
 import {startSeconds} from './Timer'
 import Timer from './Timer'
 import {searchUserType} from './UserList'
@@ -16,7 +16,6 @@ type userType = {
 type UserDetailsPropsType = {
     user: searchUserType | null
   }
-  
   
   const UserDetails = (props: UserDetailsPropsType) => {
     const [userDetails, setUserDetails] = useState<userType | null>(null)

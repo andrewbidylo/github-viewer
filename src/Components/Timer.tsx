@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react'
 
 type TimerPropsType = {
     seconds: number
@@ -17,7 +17,6 @@ type TimerPropsType = {
     useEffect(() => {
       props.onChange(seconds)
     }, [seconds])
-  
   
     useEffect(() => {
       const intervalId = setInterval(() => {
