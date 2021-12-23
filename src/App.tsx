@@ -1,10 +1,10 @@
-import {useState } from 'react'
+import { useState } from 'react'
 import './App.css'
 import Search from './Components/Search'
 import UsersList from './Components/UserList'
 import UserDetails from './Components/UserDetails'
-import {InitialSearchTerm} from './Components/Search'
-import {searchUserType} from './Components/UserList'
+import { InitialSearchTerm } from './Components/Search'
+import { searchUserType } from './Components/UserList'
 
 const App = () => {
   const [selectedUser, setSelectedUser] = useState<searchUserType | null>(null)
@@ -25,13 +25,12 @@ const App = () => {
         <div className='right-side'>
           <UserDetails user={selectedUser} />
         </div>
- 
       </div>
       <footer>
-       @ Created by Andrew Bidylo
-     </footer>
+        @ Created by Andrew Bidylo
+      </footer>
     </div>
-    
+
   );
 }
 

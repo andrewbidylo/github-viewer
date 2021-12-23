@@ -20,7 +20,7 @@ type TimerPropsType = {
   
     useEffect(() => {
       const intervalId = setInterval(() => {
-        setSeconds((prev) => prev - 1)
+        setSeconds(prev => prev - 1)
       }, 1000);
       return () => { clearInterval(intervalId) }
     }, [props.timerKey])
