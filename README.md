@@ -5,10 +5,10 @@ Githab Viewer is a single-page app, build with TypeScript, JavaScript, React, HT
 
 ## Final Product
 
-!["main_page"](#)
+!["main_page_1"](https://github.com/andrewbidylo/github-viewer/blob/master/docs/main_page_1.png?raw=true)
 
-![chat_page"](#)
-!["weather_page"](#)
+![main_page_2"](https://github.com/andrewbidylo/github-viewer/blob/master/docs/main_page_2.png?raw=true)
+
 
 ## Dependencies
 
